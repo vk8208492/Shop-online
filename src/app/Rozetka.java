@@ -1,11 +1,11 @@
 package app;
 
-import app.controller.AppController;
+import app.controller.ShopController;
 
 public class Rozetka {
 
     public static void main(String[] args) {
-            new AppController().getPayment();
+            new ShopController().getPayment();
 
     }
 }
